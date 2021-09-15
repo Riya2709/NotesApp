@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/gray"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3pt"
+        android:orientation="vertical"
+        android:background="@drawable/background_layout">
+
+        <TextView
+            android:id="@+id/titleid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Title"
+            android:textColor="#673AB7"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/contentid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Christmas is the most important festival among Christians. It is celebrated to mark the birth of Jesus, who is the supreme lord of the Christians. It marks the beginning of the days of hope for those oppressed before the birth of Jesus. Christmas celebrates the spirit of joy and merry-making."
+            android:textColor="#090808" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Space
+                android:layout_width="100pt"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:id="@+id/editid"
+                android:layout_width="40pt"
+                android:layout_height="15pt"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/baseline_create_black_24" />
+
+            <ImageView
+                android:id="@+id/deleteid"
+                android:layout_width="40pt"
+                android:layout_height="15pt"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/baseline_delete_black_24" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
